@@ -10,7 +10,7 @@ jobs:
             - name: Configurar o Java
               uses: actions/setup-java@v4
               with:
-                distribution: 'jdk'
+                distribution: 'temurin'
                 java-version: '25'
             - name: executar testes
-              run: mvn test
+              run: mvn test 
